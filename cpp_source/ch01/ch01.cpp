@@ -86,6 +86,15 @@ void q_1_5(){
     std::cout << std::endl;
 }
 
+void q_1_6(){
+  std::cout << "Enter two numbles " << std::endl;
+  int v1 = 0, v2 = 0;
+  std::cin >> v1 >> v2;
+  std::cout << "The sum of " << v1 
+    << " and " << v2 
+    << " is " << v1 + v2 << std::endl;
+}
+
 void q_1_9(){
     int sum = 0, val = 50;
     while (val <= 100){
@@ -100,7 +109,7 @@ void q_1_10(){
     int val = 10;
     while (val >= 0){
         std::cout << val << " ";
-        val -= 1;
+        val--;
     }
     std::cout << std::endl;
 }
@@ -121,6 +130,7 @@ void q_1_11(){
     }
 }
 
+/* for have 3 part, init-statement ;condition ; expression*/
 void q_1_16(){
     int sum = 0;
     for (int value = 0; std::cin >> value; )
@@ -194,24 +204,23 @@ void q_1_23(){
 }
 
 int main() {
-//    basic_io();
-//    basic_while();
-//    basic_for();
-//    basic_if();
-//    basic_cin();
-//    q_1_3();
-//    q_1_4();
-//    q_1_5();
-// /* 正常注释 /* 嵌套注释 */ 正常注释*/
-//    std::cout << /* "*/" /* "/*" */;
-//    q_1_9();
-//    q_1_10();
-//    q_1_11();
-//    q_1_16();
-//    count_num();
-//    q_1_20();
-//    q_1_21();
-//    q_1_22();
-    q_1_23();
-    return 0;
+    // basic_io();
+    // basic_while();
+    // basic_for();
+    // basic_if();
+    // basic_cin();
+    // q_1_3();
+    // q_1_4();
+    // q_1_5();
+    // q_1_6();
+    // q_1_9();
+    // q_1_10();
+    // q_1_11();
+    // q_1_16();
+    // count_num();
+    // q_1_20();
+    // q_1_21();
+    // q_1_22();
+    // q_1_23();
+      return -1;
 }

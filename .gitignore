@@ -7,3 +7,4 @@ main
 .DS_Store
 //.vscode
 */*/*.exe
+.vscode/settings.json
